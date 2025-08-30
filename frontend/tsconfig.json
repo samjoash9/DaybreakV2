@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "jsx": "react-jsx",
+        "baseUrl": ".",
+        "paths": {
+            "@/*": [
+                "./src/*"
+            ]
+        },
+        "module": "esnext",
+        "target": "esnext",
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "strict": true,
+        "skipLibCheck": true
+    },
+    "include": [
+        "src"
+    ]
+}

@@ -1,0 +1,13 @@
+/* League Spartan font class */
+.league-spartan {
+    font-family: 'League Spartan', sans-serif;
+}
+
+/* Optional: Specific styles for your logo */
+.logo {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+    /* Bold weight */
+    font-size: 2rem;
+    letter-spacing: -0.5px;
+}
