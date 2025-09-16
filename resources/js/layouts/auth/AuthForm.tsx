@@ -4,6 +4,7 @@ import AuthButton from '../../../js/components/common/AuthButton';
 import { FaUser, FaLock } from 'react-icons/fa';
 import { MdEmail } from "react-icons/md";
 import { GiHouseKeys } from "react-icons/gi";
+import { Link } from '@inertiajs/react';
 
 export default function AuthForm({ mode = "login" }) {
     const loginForm = () => (
@@ -28,9 +29,9 @@ export default function AuthForm({ mode = "login" }) {
 
             {/* Bottom Links */}
             <div className="flex justify-between w-full mt-4 text-lg font-semibold">
-                <button className="text-black hover:underline">
-                    Create Account
-                </button>
+                <Link href="/register" className="text-black hover:underline">
+                    Create an Account
+                </Link>
                 <button className="text-black hover:underline">
                     Need Help?
                 </button>
@@ -72,9 +73,9 @@ export default function AuthForm({ mode = "login" }) {
 
             {/* Bottom Links */}
             <div className="flex justify-between w-full mt-4 text-lg font-semibold">
-                <button className="text-black hover:underline">
+                <Link href="/login" className="text-black hover:underline">
                     Already have account?
-                </button>
+                </Link>
                 <button className="text-black hover:underline">
                     Need Help?
                 </button>
